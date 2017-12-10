@@ -1,18 +1,17 @@
-# OpenSourceWeekend
-//Day 2 activity of Open Source Weekend organised by xxCode team for women developers 
+ECHO is on.
 #include<stdio.h>
  
 int main() {
-   int a[100], i, j, k, size;
+   int a[20], i, j, k, size;
  
    printf("\nEnter array size : ");
    scanf("%d", &size);
  
-   printf("\nenter  Numbers : ");
+   printf("\nEnter Numbers : ");
    for (i = 0; i < size; i++)
       scanf("%d", &a[i]);
  
-   printf("\nArray with no duplicate elements : ");
+   printf("\nArray with Unique list  : ");
    for (i = 0; i < size; i++) {
       for (j = i + 1; j < size;) {
          if (a[j] == a[i]) {
